@@ -1,6 +1,7 @@
 import './style.css'
 import "./style.css";
 
+//!snack-1
 const data: unknown = ["orsouene",28];
 
 if (typeof data === "string") {
@@ -24,3 +25,11 @@ else if (Array.isArray(data)) {
 }
 
 
+//!snack-2
+type dipendente = {
+  nome: string;
+  cognome: string;
+  annoNascita: number;
+  sesso: "m" | "f";
+  anniDiServizio: number[];
+};
